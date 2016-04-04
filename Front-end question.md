@@ -52,9 +52,7 @@
 Каким образом вы организуете свой код? (модульные паттерны, классическое наследование?)
 В чем разница между host objects и native objects?
 Назвать разницу:
-1
-2
-3
+
 function Person(){}
 var person = Person()
 var person = new Person()
@@ -82,22 +80,22 @@ var person = new Person()
 Объясните делегирование событий.
 Опишите наследование шаблонов в JavaScript.
 Сделайте так, чтобы это работало: 
-1
+
 [1,2,3,4,5].duplicator(); // [1,2,3,4,5,1,2,3,4,5]
 Опишите стратегию для запоминания (memoization) в JavaScript.
 Почему это называется тройным оператором (Ternary statement), о чем сигнализирует слово тройной (Ternary)?
 Что такое арность функции (arity of a function)?
 Примеры JS-кода:
 
-1
+
 ~~3.14
 Вопрос: Какое значение будет возвращено?
 Ответ: 3
-1
+
 "i'm a lasagna hog".split("").reverse().join("");
 Вопрос: Какое значение будет возвращено?
 Ответ: “goh angasal a m’i”
-1
+
 ( window.foo || ( window.foo = "bar" ) );
 Вопрос: What is the value of window.foo?
 Answer: “bar”
@@ -119,7 +117,7 @@ alert(foo + bar);
 В чем разница между .bind(), .live(), и.delegate()?
 В чем разница между $ и$.fn? Или просто что такое $.fn.
 Оптимизируйте этот селектор:
-1
+
 $(".foo div#bar:eq(0)")
 Вопросы по CSS:
 
